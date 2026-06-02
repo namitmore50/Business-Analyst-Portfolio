@@ -1,0 +1,19 @@
+,PhoneService Vs Churn,,,,,,,,OnlineBackup Vs Churn,,,,,,,,StreamingTV  Vs Churn,,
+Count of customerID,Column Labels,,,,,,,Count of customerID,Column Labels,,,,,,,Count of customerID,Column Labels,,
+Row Labels,No,Yes,Grand Total,,,,,Row Labels,No,Yes,Grand Total,,,,,Row Labels,No,Yes,Grand Total
+No,512,170,682,,,,,No,1855,1233,3088,,,,,No,1868,942,2810
+Yes,4662,1699,6361,,,,,No internet service,1413,113,1526,,,,,No internet service,1413,113,1526
+Grand Total,5174,1869,7043,,,,,Yes,1906,523,2429,,,,,Yes,1893,814,2707
+,,,,,,,,Grand Total,5174,1869,7043,,,,,Grand Total,5174,1869,7043
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,MultipleLines Vs Churn,,,,,,,,DeviceProtection Vs Churn,,,,,,,,StreamingMovies Vs Churn,,
+Count of customerID,Column Labels,,,,,,,Count of customerID,Column Labels,,,,,,,Count of customerID,Column Labels,,
+Row Labels,No,Yes,Grand Total,,,,,Row Labels,No,Yes,Grand Total,,,,,Row Labels,No,Yes,Grand Total
+No,2541,849,3390,,,,,No,1884,1211,3095,,,,,No,1847,938,2785
+No phone service,512,170,682,,,,,No internet service,1413,113,1526,,,,,No internet service,1413,113,1526
+Yes,2121,850,2971,,,,,Yes,1877,545,2422,,,,,Yes,1914,818,2732
+Grand Total,5174,1869,7043,,,,,Grand Total,5174,1869,7043,,,,,Grand Total,5174,1869,7043

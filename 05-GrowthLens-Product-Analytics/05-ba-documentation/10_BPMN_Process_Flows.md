@@ -1,0 +1,315 @@
+# BPMN Process Flows
+
+**Project:** GrowthLens – Customer Intelligence & Product Analytics Platform
+**Version:** 1.0
+**Date:** 24 June 2026
+**Author:** Namit More
+**Status:** Final
+
+---
+
+# Table of Contents
+
+1. Purpose
+2. Process Flow 1 – Analytics Delivery Workflow
+3. Process Flow 2 – A/B Experiment Lifecycle
+4. Process Flow 3 – KPI Review Cadence
+5. Revision History
+
+---
+
+# Revision History
+
+| Version | Date        | Author     | Description   |
+| ------- | ----------- | ---------- | ------------- |
+| 0.1     | 24-Jun-2026 | Namit More | Initial Draft |
+| 1.0     | 24-Jun-2026 | Namit More | Final Version |
+
+---
+
+# Purpose
+
+This document describes the business processes that support analytics delivery, experimentation, and KPI governance within the GrowthLens platform.
+
+The process flows provide a shared understanding of responsibilities, handoffs, and decision points among stakeholders.
+
+---
+
+# Process Flow 1 – Analytics Delivery Workflow
+
+## Objective
+
+Transform business questions into actionable insights and business decisions.
+
+---
+
+## Swimlanes
+
+* Stakeholder
+* Business Analyst
+* Data System
+
+---
+
+## Process Steps
+
+```text
+Start
+↓
+Business Question Submitted
+↓
+Data Pull & Cleaning
+↓
+Analysis Performed
+↓
+Stakeholder Review
+↓
+Insight Report Generated
+↓
+Business Decision
+↓
+Action Implemented
+↓
+Performance Measured
+↓
+Loop Back to New Questions
+```
+
+---
+
+## BPMN Description
+
+| Step                        | Owner         |
+| --------------------------- | ------------- |
+| Business Question Submitted | Stakeholder   |
+| Data Extraction             | Analyst       |
+| Data Cleaning               | Analyst       |
+| Analysis                    | Analyst       |
+| Review                      | Stakeholder   |
+| Insight Report              | Analyst       |
+| Decision                    | Stakeholder   |
+| Action                      | Business Team |
+| Measurement                 | Analyst       |
+
+---
+
+## Expected Outcome
+
+* Faster decision-making
+* Data-driven actions
+* Continuous improvement loop
+
+---
+
+# Process Flow 2 – A/B Experiment Lifecycle
+
+## Objective
+
+Provide a statistically rigorous framework for product experimentation.
+
+---
+
+## Swimlanes
+
+* Product Manager
+* Data Analyst
+* Engineering Team
+* Stakeholder
+
+---
+
+## Process Steps
+
+```text
+Start
+↓
+Problem Identified
+↓
+Hypothesis Formed
+↓
+Experiment Designed
+↓
+Sample Size Validated
+↓
+Engineering Builds Solution
+↓
+Experiment Launched
+↓
+SRM Check
+↓
+Analysis Performed
+↓
+Statistical Test
+↓
+Decision Gate
+│
+├── Significant → Roll Out
+│
+└── Not Significant → Re-Run
+↓
+Monitor Results
+↓
+End
+```
+
+---
+
+## Decision Gateway
+
+### Significant
+
+Conditions:
+
+* p-value < 0.05
+* No SRM detected
+* No guardrail violations
+
+Action:
+
+```text
+Roll Out
+```
+
+---
+
+### Not Significant
+
+Action:
+
+```text
+Re-Run Experiment
+```
+
+---
+
+## Expected Outcome
+
+* Reduced decision risk
+* Evidence-based product decisions
+* Controlled experimentation process
+
+---
+
+# Process Flow 3 – KPI Review Cadence
+
+## Objective
+
+Establish a governance process for monitoring business performance.
+
+---
+
+## Swimlanes
+
+* Business Analyst
+* Chief Product Officer
+* Chief Executive Officer
+* Board
+
+---
+
+## Daily Activities
+
+```text
+Weekly Active Buyers Reviewed
+↓
+Anomaly Detected?
+│
+├── Yes → Investigation
+│
+└── No → Continue Monitoring
+```
+
+---
+
+## Weekly Activities
+
+```text
+MAU Review
+↓
+Conversion Review
+↓
+Retention Review
+↓
+Weekly Review Meeting
+↓
+Business Decisions
+```
+
+---
+
+## Monthly Activities
+
+```text
+Full KPI Tree Review
+↓
+Board Preparation
+↓
+Board Presentation
+↓
+Strategic Adjustments
+```
+
+---
+
+# KPI Governance Matrix
+
+| Metric               | Frequency | Owner   |
+| -------------------- | --------- | ------- |
+| Weekly Active Buyers | Daily     | Analyst |
+| MAU                  | Weekly    | CPO     |
+| Conversion Rate      | Weekly    | CPO     |
+| Retention            | Weekly    | CPO     |
+| Revenue              | Monthly   | CEO     |
+| LTV:CAC              | Monthly   | CEO     |
+| Full KPI Tree        | Monthly   | Board   |
+
+---
+
+# Process Benefits
+
+## Analytics Delivery Workflow
+
+* Faster insights
+* Improved decisions
+* Continuous improvement
+
+---
+
+## Experiment Lifecycle
+
+* Reduced product risk
+* Better product decisions
+* Scientific experimentation
+
+---
+
+## KPI Governance
+
+* Increased accountability
+* Early anomaly detection
+* Strategic alignment
+
+---
+
+# Recommended Diagram Files
+
+Store BPMN diagrams here:
+
+```text
+07-process-diagrams/
+├── analytics_delivery_workflow.png
+├── ab_experiment_lifecycle.png
+└── kpi_review_cadence.png
+```
+
+Reference them in GitHub using:
+
+```markdown
+![Analytics Workflow](../07-process-diagrams/analytics_delivery_workflow.png)
+```
+
+---
+
+# Conclusion
+
+The defined BPMN process flows provide a structured framework for analytics delivery, experimentation, and business performance governance. These processes ensure that insights generated by GrowthLens translate into measurable business actions and continuous organizational learning.

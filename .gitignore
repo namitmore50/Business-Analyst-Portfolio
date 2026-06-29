@@ -1,0 +1,58 @@
+# ==========================
+
+# Data Files
+
+# ==========================
+
+**/01-data/raw/
+**/01-data/processed/
+
+# Databases
+
+*.db
+*.sqlite
+*.sqlite3
+
+# Large datasets
+
+*.csv
+*.parquet
+*.feather
+*.h5
+
+# Excel files
+
+*.xlsx
+*.xls
+
+# Archives
+
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Python cache
+
+**pycache**/
+.ipynb_checkpoints/
+*.pyc
+
+# Power BI autosave
+
+*.pbix.autorecovery
+
+# OS files
+
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# VS Code
+
+.vscode/
+
+# Logs
+
+*.log

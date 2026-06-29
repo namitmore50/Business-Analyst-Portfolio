@@ -1,0 +1,20 @@
+{
+    "North_Star_Metric": "Weekly Active Buyers",
+    "Level_1": {
+        "MAU": [
+            "New Users",
+            "Retained Users",
+            "Resurrected Users"
+        ],
+        "Conversion Rate": [
+            "Product Views",
+            "Cart Adds",
+            "Purchases"
+        ],
+        "Repeat Purchase Rate": [
+            "Retention",
+            "Loyalty",
+            "Customer Experience"
+        ]
+    }
+}
